@@ -51,13 +51,13 @@
         "search": "Recherche",
         "security": "Sécurité",
         "scanQRcode": "Numériser le code QR",
-        "secretCodeOrUrl": "Code secret ou l'URL",
+        "secretCodeOrUrl": "Secret ou URL",
         "sectionName": "Nom de la section",
-        "secretOrTotpAuthUrl": "URL secrète ou TOTP Auth",
+        "secretOrTotpAuthUrl": "Secret ou URL TOTP Auth",
         "sort": "Trier",
         "systemDefault": "Défaut du système",
         "support": "Soutien",
-        "tags": "Tags",
+        "tags": "Étiquettes",
         "theme": "Thème",
         "title": "Titre",
         "transformRounds": "Cycles de transformation"
@@ -74,8 +74,8 @@
         "additionalOneTimePasswords": "Mots de passe uniques supplémentaires",
         "attachments": "Pièces jointes",
         "bankAddress": "Adresse de la banque",
-        "billingAddress": "Billing Address",
-        "cardDetails": "Adresse de facturation",
+        "billingAddress": "Adresse de facturation",
+        "cardDetails": "Détails de la carte",
         "loginDetails": "Détails de la connexion",
         "notes": "Notes",
         "tags": "Étiquettes"
@@ -89,11 +89,11 @@
         "addressLine2": "Ligne d'adresse 2",
         "bankCode/RoutingNumber": "Code bancaire/Numéro de routage",
         "baseStationNameOrSsid": "Nom de la station de base ou SSID",
-        "brand": "Brand",
+        "brand": "Fabricant",
         "cardholderName": "Nom du détenteur de la carte",
         "city": "Ville",
-        "contactEmail": "Courriel de contact",
-        "contactNumber": "Numéro de contact",
+        "contactEmail": "Courriel du contact",
+        "contactNumber": "Numéro de téléphone du contact",
         "country": "Pays",
         "creditLimit": "Limite de crédit",
         "cvc": "CVC",
@@ -106,7 +106,7 @@
         "otp": "OTP",
         "phoneNumber": "Numéro de téléphone",
         "password": "Mot de passe",
-        "pin": "PIN",
+        "pin": "NIP",
         "state": "État",
         "swift": "SWIFT",
         "title": "Titre",
@@ -135,7 +135,7 @@
             "newDatabase": "Nouvelle base de données",
             "newSectionName": "Nouveau nom de section",
             "openDatabase": "Ouvrir une base de données",
-            "putBack": "Remettre en place",
+            "putBack": "Revenir en arrière",
             "restoreHistoryEntry": "Restaurer à partir de l'historique",
             "remove": "Retirer",
             "removing": "Suppression de {{dbFileName}}",
@@ -146,13 +146,13 @@
         "texts": {
             "allTagsTxt": "Sélectionner ou désélectionner les étiquettes",
             "allTagsPh": "Balises séparées par des virgules",
-            "allTagsAddHint": "Appuyez sur + pour ajouter des balises",
+            "allTagsAddHint": "Appuyez sur + pour ajouter des étiquettes",
             "biometricConfirmTxt1": "Utiliser FaceID/TouchID pour déverrouiller la base de données",
             "biometricConfirmTxt2": "Utiliser l'authentification biométrique pour déverrouiller la base de données",
             "historyDelete": "Êtes-vous sûr de vouloir supprimer définitivement cette entrée de l'historique ?",
             "historyDeleteAll": "Êtes-vous sûr de vouloir supprimer définitivement toutes les entrées de l'historique ?",
             "deleteEntry": "L'entrée sera supprimée et placée dans la corbeille.",
-            "deleteGroup": "Le groupe ou la catégorie et son contenu seront supprimés et mis à la poubelle.",
+            "deleteGroup": "Le groupe ou la catégorie et son contenu seront supprimés et placés dans la corbeille.",
             "deleteAllEntriesPermanet": "Êtes-vous sûr de vouloir supprimer toutes les entrées de façon permanente ?",
             "deleteEntryPermanent": "Êtes-vous sûr de vouloir supprimer définitivement cette entrée ?",
             "deleteField": "Êtes-vous sûr de vouloir supprimer définitivement ce champ ?",
@@ -254,7 +254,7 @@
         "changePassword": "Modifier le mot de passe",
         "close": "Fermer",
         "cancel": "Annuler",
-        "continue": "Annuler",
+        "continue": "Continuer",
         "create": "Créer",
         "edit": "Editer",
         "enterManually": "Saisie manuelle",
@@ -302,7 +302,7 @@
         "modifiedTime": "Heure modifiée",
         "privacyPolicy": "Politique de confidentialité",
         "pwdGenerator": "Générateur de mot de passe",
-        "putback": "Remettre en place",
+        "putback": "Revenir en arrière",
         "remove": "Retirer",
         "rename": "Renommer",
         "restore": "Restaurer",
@@ -317,11 +317,11 @@
     },
     "messageTexts": {
         "about": {
-            "noPersonalInfoCollection": "L'application ne recueille aucune information personnelle identifiable. Rien n'est collecté ou partagé avec une partie externe"
+            "noPersonalInfoCollection": "L'application ne recueille aucune information personnelle identifiable. Rien n'est collecté ou partagé avec un tierce parti"
         },
         "appSettings": {
-            "clipboardCleard1": "Le presse-papiers ne sera pas effacé",
-            "clipboardCleard2": "Le presse-papiers sera vidé en {{clipboardTimeoutTime}}",
+            "clipboardCleard1": "Le presse-papier ne sera pas effacé",
+            "clipboardCleard2": "Le presse-papier sera vidé en {{clipboardTimeoutTime}}",
             "dbRemainOpened": "La base de données restera ouverte jusqu'à ce qu'elle soit verrouillée ou fermée",
             "inactiveDbLocked": "La base de données inactive sera verrouillée après le délai d'attente de {{dbTimeoutTime}}",
             "languageTransLoaded":"Données linguistiques chargées",
@@ -356,8 +356,8 @@
 
         "scanQr": {
             "backCameraNotFound":"La caméra arrière est introuvable. Veuillez saisir le code secret manuellement",
-            "cameraPermissionEnable":"L'autorisation de l'appareil photo est requise pour que OneKeePass puisse scanner un code QR. Veuillez l'activer",
-            "cameraPermissionRequired":"L'autorisation de l'appareil photo est requise pour que OneKeePass puisse scanner un code QR."
+            "cameraPermissionEnable":"L'autorisation de l'appareil photo est requise pour que OneKeePass puisse numériser un code QR. Veuillez l'activer",
+            "cameraPermissionRequired":"L'autorisation de l'appareil photo est requise pour que OneKeePass puisse numériser un code QR."
         }
 
     }
